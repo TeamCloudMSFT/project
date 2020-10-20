@@ -1,13 +1,19 @@
 name: Project Def
-params:
-  - name: Cost Center
+
+components:
+  - github.repos.repo.*
+
+parameters:
+  - id: costCenter
+    name: Cost Center
     type: number
     default: 4711
     allowed:
       - 4711
       - 8153
 
-  - name: Data Classification
+  - id: dataClassification
+    name: Data Classification
     type: string
     default: Internal
     allowed:
