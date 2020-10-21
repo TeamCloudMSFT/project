@@ -19,6 +19,7 @@ parameters:
     type: string
     value: Consumption
     readonly: true
+    required: true
 
   - id: instrumentationKey
     name: Instrumentation Key
@@ -27,6 +28,7 @@ parameters:
   - id: functionsRuntimeStack
     name: Function App Runtime stack
     type: string
+    required: true
     default: .NET Core
     allowed:
       - .NET Core
@@ -36,6 +38,7 @@ parameters:
   - id: functionsRuntimeVersion
     name: Function App Runtime version
     type: string
+    required: true
     default: 3.1
     allowed:
       - 3.1

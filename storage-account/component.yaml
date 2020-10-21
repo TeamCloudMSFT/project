@@ -8,7 +8,6 @@ description: ./readme.md
 isolation: ResourceGroup
 
 parameters:
-
   - id: storagePlan
     name: Storage Plan
     type: string
@@ -19,7 +18,7 @@ parameters:
     name: Azure Region
     type: string
     value: eastus
-
+    required: true
 
 # Make the following subscription pools available for this component. This section – if defined –
 # overrides the set of subscription pools defined in project manifest file.
