@@ -10,7 +10,7 @@ isolation: ResourceGroup
 parameters:
   - id: template
     name: Template
-    type: url
+    type: string
     value: ./azuredeploy.json
     readonly: true
 
