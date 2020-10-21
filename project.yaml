@@ -1,5 +1,7 @@
 name: Project Def
 
+description: ./README.md
+
 components:
   - github.repos.repo.*
 
