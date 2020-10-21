@@ -10,11 +10,13 @@ isolation: ResourceGroup
 parameters:
   - id: template
     name: Template
+    type: url
     value: ./azuredeploy.json
     readonly: true
 
   - id: runtimePlan
     name: Runtime Plan
+    type: string
     value: Consumption
     readonly: true
 
