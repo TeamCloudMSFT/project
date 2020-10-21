@@ -47,3 +47,5 @@ parameters:
 pools:
   - Development
   - Staging
+
+provider: azure.arm
