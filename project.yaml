@@ -8,7 +8,7 @@ components:
 parameters:
   - id: costCenter
     name: Cost Center
-    type: number
+    type: string
     default: 4711
     allowed:
       - 4711
